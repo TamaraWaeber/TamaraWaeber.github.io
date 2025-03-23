@@ -1474,3 +1474,15 @@ section,
   border-radius: 10px;
   background-color: #f9f9f9;
 }
+
+/*--------------------------------------------------------------
+# Images grey and then color
+--------------------------------------------------------------*/
+.color-hover {
+    filter: grayscale(100%); /* Start with grayscale */
+    transition: filter 0.3s ease; /* Smooth transition */
+  }
+
+  .color-hover:hover {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+  }
