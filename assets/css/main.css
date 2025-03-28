@@ -1153,6 +1153,16 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+
+.box-contact {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
