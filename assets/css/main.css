@@ -889,13 +889,35 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
-
-.box-contact {
+.box-contact-squared {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  background-color: #f9f9f9;
+}
+.box-contact-with-radius {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 25px;
   padding-right: 30px;
   border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.box-contact-right-squared {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  border-radius: 10px 0 0 10px;
+  background-color: #f9f9f9;
+}
+.box-contact-left-squared {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  border-radius: 0 10px 10px 0;
   background-color: #f9f9f9;
 }
 
